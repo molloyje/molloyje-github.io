@@ -1,18 +1,19 @@
 html{
     font-size:16px;
     line-height:1.5;
+    
 }
 
 body{
     max width: 90rem;
-    background-color: ;
+    background-color: #377771;
     margin: 5rem auto;
-    back
 }
 
 header{
-
-
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 nav{
@@ -26,6 +27,9 @@ main{
 }
 
 footer{
-
-
+    font-family:
+    font-size: 
+    font-weight: 400px;
+    line-height: 1.3;
+    margin: 0 0 16px 0;
 }
