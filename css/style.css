@@ -1,7 +1,7 @@
 html{
     font-size:16px;
     line-height:1.5;
-    
+
 }
 
 body{
@@ -32,4 +32,24 @@ footer{
     font-weight: 400px;
     line-height: 1.3;
     margin: 0 0 16px 0;
+}
+
+h1{
+
+}
+
+h2{
+
+}
+
+a{
+    color: #FFAF87;
+    text-decoration: none;
+    margin: 0 0 0 2rem;
+}
+
+a:hover,
+a.selected{
+    color: #FFAF87;
+    border-bottom: 2px solid #FFAF87;
 }
