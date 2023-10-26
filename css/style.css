@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Petrona&display=swap');
+
 html{
     font-size:16px;
     line-height:1.5;
-
+    font-family: 'Fugaz One', sans-serif;
+    font-family: 'Petrona', serif;
 }
 
 body{
-    max width: 90rem;
+    max-width: 90rem;
     background-color: #377771;
     margin: 5rem auto;
 }
@@ -14,28 +17,42 @@ header{
     display:flex;
     align-items: center;
     justify-content: space-between;
+    font-family: 'Fugaz One', sans-serif;
 }
 
 nav{
-
+    font-family: 'Fugaz One', sans-serif;
 
 }
 
 main{
-
-
+    max-width: 70rem; 
+    max-height: auto; 
+    margin: 10rem 10rem 10rem 10rem;
+    /*display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(24,1fr); 
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    grid-auto-flow: dense;*/
 }
 
 footer{
-    font-family:
-    font-size: 
+    font-family: 'Fugaz One', sans-serif;
     font-weight: 400px;
     line-height: 1.3;
     margin: 0 0 16px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 h1{
-
+    font-family: 'Fugaz One', sans-serif;
+    color:#FF8E72;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 h2{
@@ -52,4 +69,34 @@ a:hover,
 a.selected{
     color: #FFAF87;
     border-bottom: 2px solid #FFAF87;
+}
+
+.tagline{
+    font-family: 'Fugaz One', sans-serif;
+    color:#FF8E72;
+    line-height: 1.3;
+    margin: 0 0 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#portfolio_grid {
+    max-width: 70rem; 
+    max-height: auto; 
+    margin: 10rem auto;
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#sunandmoon_3{
+    grid-column: 1/7;
+    grid-row:1/2;
+}
+
+#abstract_1 {
+    grid-column: 1/7;
+    grid-row:2/3;
 }
