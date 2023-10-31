@@ -65,7 +65,7 @@ h2{
 
 h3{
     font-family: 'Fugaz One', sans-serif;
-    color:#FF8E72;
+    color:#377771;
     display:flex;
     align-items: center;
     justify-content: space-between;
@@ -77,6 +77,9 @@ p{
     font-weight:400;
     font-size: 1rem;
     line-height: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 a{
@@ -127,6 +130,10 @@ a.selected{
   .description-alt{
     grid-column: 1 / span 4;
   }
+
+  .profile{
+    border-radius: 50%;
+  }
 /*#portfolio_grid {
     max-width: 70rem; 
     max-height: auto; 
@@ -145,4 +152,7 @@ a.selected{
 #abstract_1 {
     grid-column: 1/7;
     grid-row:2/3;
-}
+}*/
+
+
+
